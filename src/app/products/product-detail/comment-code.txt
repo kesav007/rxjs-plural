@@ -1,0 +1,27 @@
+  // sub!: Subscription;
+
+/*
+  ngOnInit(): void {
+  }
+
+  ngOnDestroy(): void {
+    if(this.sub){
+      this.sub.unsubscribe();
+    }
+  }
+*/
+/*
+  ngOnChanges(changes: SimpleChanges): void {
+    const productId = changes['productId'].currentValue;
+    this.errorMessage = '';
+    if(productId)
+    this.sub = this.productService.getProductById(productId)
+    .pipe(catchError(error => 
+      {
+        this.errorMessage = error;
+        return EMPTY;
+      }))
+    .subscribe(response => this.product = response);
+  }
+*/
+
